@@ -1,0 +1,7 @@
+.fixed-bottom-image {
+  position: fixed; /* 讓圖片固定在瀏覽器視窗中 */
+  bottom: 100px; /* 讓圖片距離底部 100px */
+  left: 50%; /* 將圖片水平置中 */
+  transform: translateX(-50%); /* 精確地將圖片置中 */
+  z-index: 999; /* 確保圖片顯示在其他內容之上 */
+}
