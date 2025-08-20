@@ -1,9 +1,0 @@
-.fixed-bottom-image {
-  position: fixed; /* 將圖片固定在瀏覽器視窗中 */
-  bottom: 0;      /* 讓圖片貼齊視窗底部 */
-  left: 50%;      /* 將圖片水平置中 */
-  transform: translateX(-50%); /* 精確地將圖片置中 */
-  z-index: 999;   /* 確保圖片顯示在其他內容之上 */
-  width: auto;    /* 圖片寬度自動 */
-  max-width: 100%; /* 防止圖片超過螢幕寬度 */
-}
