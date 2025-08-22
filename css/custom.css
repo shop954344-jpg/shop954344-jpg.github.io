@@ -1,15 +1,12 @@
 .fixed-bottom-image {
-  position: absolute; /* 讓圖片固定在父元素底部 */
-  bottom: 0; /* 讓圖片貼齊父元素底部 */
+  position: absolute;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
 }
-.card-weixin .card-content .face {
-  height: 300px !important; /* 加入 !important */
-  width: 300px !important; /* 加入 !important */
-}
+.card-weixin .card-content .face,
 .card-weixin .card-content .backFace {
-  height: 300px !important; /* 加入 !important */
-  width: 300px !important; /* 加入 !important */
+  height: 300px !important;
+  width: 300px !important;
 }
